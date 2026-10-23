@@ -1,0 +1,20 @@
+{
+  "name": "projeto-ist-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Dashboard de conformidade de qualidade de água — Projeto IST: ensaios x limites por legislação (CONAMA, WHO, EU, EPA)",
+  "scripts": {
+    "start": "node server.mjs",
+    "check": "node check.mjs",
+    "report:check": "node report-check.mjs",
+    "demo:seed": "node seed/demo.mjs",
+    "demo:purge": "node seed/demo.mjs purge"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "pg": "^8.16.0"
+  }
+}
