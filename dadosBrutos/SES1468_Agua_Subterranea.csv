@@ -1,0 +1,71 @@
+﻿Legislacao;Matriz;Origem_Amostra;Ensaio;Descricao;Classe_Legislacao;Valor_Min_Permitido;Valor_Max_Permitido;Un_Medida
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;397;Heptacloro;Sem classe;0,000000;0,300000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;400;Endrin;Sem classe;0,000000;0,070000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;412;Metoxicloro;Sem classe;0,000000;20,000000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;431;Propanil;Sem classe;0,000000;700,000000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;433;Pendimetalina;Sem classe;0,000000;15,000000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;436;Terbufos;Sem classe;0,000000;0,160000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;439;Paration-Metil;Sem classe;0,000000;0,070000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;836;Carbaril;Sem classe;0,000000;18,000000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;842;Metomil;Sem classe;0,000000;20,000000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;856;Bentazona;Sem classe;0,000000;500,000000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;871;AMPA;Sem classe;0,000000;30,000000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;877;Glifosato+AMPA;Sem classe;0,000000;30,000000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;913;Clorpirifós;Sem classe;0,000000;10,000000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;4133;Piraclostrobina;Sem classe;0,000000;10,000000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;4134;Epoxiconazol;Sem classe;0,000000;6,000000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;4135;Propiconazol;Sem classe;0,000000;100,000000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;4270;Imidacloprido;Sem classe;0,000000;17,000000;ug/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;4272;Bifentrina;Sem classe;0,000000;120,000000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;4276;Iprodiona;Sem classe;0,000000;100,000000;ug/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;6486;Carbendazim;Sem classe;0,000000;19,500000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;6487;Benomil;Sem classe;0,000000;15,000000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;7172;Clorpirifós + Clorpirifós-Oxon;Sem classe;0,000000;0,000000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;10271;Permetrina Total;Sem classe;0,000000;15,000000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;15141;Abamectina;Sem classe;0,000000;0,300000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;15144;Captana;Sem classe;0,000000;30,000000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;15145;Carboxina;Sem classe;0,000000;300,000000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;15146;Carfentrazona-Etílica;Sem classe;0,000000;100,000000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;15147;Cianamida;Sem classe;0,000000;12,000000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;15148;Cipermetrina;Sem classe;0,000000;3,000000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;15149;Cletodim;Sem classe;0,000000;60,000000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;15150;Clorimurom-Etílico;Sem classe;0,000000;120,000000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;15151;Cresoxim-Metílico;Sem classe;0,000000;2400,000000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;15152;Deltametrina;Sem classe;0,000000;3,000000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;15153;Dicamba;Sem classe;0,000000;120,000000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;15154;Diflubenzurom;Sem classe;0,000000;6,000000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;15155;Diquate;Sem classe;0,000000;20,000000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;15156;Ditianona;Sem classe;0,000000;60,000000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;15157;Endosulfam (alfa, beta e sais);Sem classe;0,000000;5,400000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;15158;Etoxissulfurom;Sem classe;0,000000;240,000000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;15159;Fenitrotiona;Sem classe;0,000000;30,000000;ug/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;15160;Fenoxaprope-Petílico;Sem classe;0,000000;15,000000;ug/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;15161;Fipronil;Sem classe;0,000000;0,060000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;15162;Folpete;Sem classe;0,000000;600,000000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;15163;Fomesafem;Sem classe;0,000000;18,000000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;15164;Hexazinona;Sem classe;0,000000;400,000000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;15165;Imazapir;Sem classe;0,000000;9000,000000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;15166;Imazetapir;Sem classe;0,000000;1500,000000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;15167;Indoxacarbe;Sem classe;0,000000;60,000000;ug/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;15168;Iodosulfurom-Metílico;Sem classe;0,000000;180,000000;ug/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;15169;Lambda-Cialotrina;Sem classe;0,000000;30,000000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;15170;Mesotriona;Sem classe;0,000000;0,600000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;15171;Metalaxil-M;Sem classe;0,000000;100,000000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;15172;Metidationa;Sem classe;0,000000;0,300000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;15173;Metsulfurom-Metílico;Sem classe;0,000000;40,000000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;15185;Parationa Metílica;Sem classe;0,000000;0,070000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;15186;Pendimentalina;Sem classe;0,000000;15,000000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;15187;Picoxistrobina;Sem classe;0,000000;258,000000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;15188;Piraclostrobina;Sem classe;0,000000;10,000000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;15189;Pirimifós-Metílico;Sem classe;0,000000;100,000000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;15190;Piriproxifeno;Sem classe;0,000000;30,000000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;15191;Propanil;Sem classe;0,000000;700,000000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;15192;Propiconazol;Sem classe;0,000000;100,000000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;15193;Tembotriona;Sem classe;0,000000;2,400000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;15194;Terbutilazina;Sem classe;0,000000;8,000000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;15195;Tetraconazol;Sem classe;0,000000;30,000000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;15196;Triciclazol;Sem classe;0,000000;180,000000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;15200;2,4-D + 2,4,5-T;Sem classe;0,000000;12,000000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;15202;Glifosato+AMPA;Sem classe;0,000000;30,000000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;15208;Terbufos;Sem classe;0,000000;0,160000;µg/L
+Portaria SES nº1468/2022;Água - BNU;Água Subterrânea;16806;Metoxicloro;Sem classe;0,000000;20,000000;µg/L

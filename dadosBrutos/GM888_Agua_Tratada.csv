@@ -1,0 +1,251 @@
+﻿Legislacao;Matriz;Origem_Amostra;Ensaio;Descricao;Classe_Legislacao;Valor_Min_Permitido;Valor_Max_Permitido;Un_Medida
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;4;Amônia;Sem classe;0,000000;1,200000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;5;Bromato;Sem classe;0,000000;0,010000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;5;Bromato;Sem classe;0,000000;0,010000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;10;Cloraminas;Sem classe;0,000000;4,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;11;Cloretos;Sem classe;0,000000;250,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;11;Cloretos;Sem classe;0,000000;250,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;12;Clorito;Sem classe;0,000000;0,700000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;16;Cor Aparente;Sem classe;0,000000;15,000000;Pt/Co
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;23;Dureza Total;Sem classe;0,000000;300,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;25;Fluoreto;Sem classe;0,000000;1,500000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;29;Gosto e Odor;Sem classe;0,000000;6,000000;Intensidade
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;31;Nitrato (NO3-N);Sem classe;0,000000;10,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;32;Nitrito (NO2-N);Sem classe;0,000000;1,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;36;Odor;Àgua tratada;0,000000;6,000000;Intensidade
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;36;Odor;Sem classe;0,000000;6,000000;Intensidade
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;43;Sulfato;Sem classe;0,000000;250,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;47;Sulfeto de Hidrogênio (H2S-S-2);Sem classe;0,000000;0,050000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;48;Turbidez;Sem classe;0,000000;5,000000;NTU
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;56;Coliformes Totais (P/A);Sem classe;0,000000;0,000001;Aus/Pres em 100mL
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;57;Coliformes Totais (NMP);Sem classe;0,000000;1,000000;NMP/100 mL
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;58;Coliformes Totais (UFC);Sem classe;0,000000;1,000000;UFC/100mL
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;60;Densidade de Cianobactérias;Sem classe;0,000000;20000,000000;células/mL
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;62;Escherichia coli (UFC);Sem classe;0,000000;1,000000;UFC/100mL
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;63;Escherichia coli (NMP);Sem classe;0,000000;1,000000;NMP/100 mL
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;67;Microcistinas;Sem classe;0,000000;1,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;68;Saxitoxinas;Sem classe;0,000000;3,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;217;Alumínio;Sem classe;0,000000;0,200000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;218;Antimônio;Sem classe;0,000000;0,006000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;219;Arsênio;Sem classe;0,000000;0,010000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;220;Bário;Sem classe;0,000000;0,700000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;224;Cádmio;Sem classe;0,000000;0,003000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;226;Chumbo;Sem classe;0,000000;0,010000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;227;Cobre;Sem classe;0,000000;2,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;229;Cromo;Sem classe;0,000000;0,050000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;231;Ferro;Sem classe;0,000000;0,300000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;233;Manganês;Sem classe;0,000000;0,100000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;235;Mercúrio;Sem classe;0,000000;0,001000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;237;Níquel;Sem classe;0,000000;0,070000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;241;Selênio;Sem classe;0,000000;0,040000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;243;Sódio;Sem classe;0,000000;200,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;244;Urânio;Sem classe;0,000000;0,030000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;249;Zinco;Sem classe;0,000000;5,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;348;Benzo(a)pireno;Sem classe;0,000000;0,400000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;356;Di(2-etilhexil)ftalato;Sem classe;0,000000;8,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;382;2,4-diclorofenol;Sem classe;0,000000;0,200000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;386;2,4,6-triclorofenol;Sem classe;0,000000;0,200000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;392;Pentaclorofenol;Sem classe;0,000000;9,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;396;g-HCH (y-HCH ou gama-Lindano);Sem classe;0,000000;2,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;417;Trifluralina;Sem classe;0,000000;20,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;419;Simazina;Sem classe;0,000000;2,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;421;Clorotalonil;Sem classe;0,000000;45,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;422;Metribuzim;Sem classe;0,000000;25,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;423;Alacloro;Sem classe;0,000000;20,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;424;Metolacloro;Sem classe;0,000000;10,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;429;Molinato;Sem classe;0,000000;6,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;430;Diuron;Sem classe;0,000000;20,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;436;Terbufos;Sem classe;0,000000;1,200000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;440;Malation;Sem classe;0,000000;60,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;665;Diclorometano (Cloreto de Metileno);Sem classe;0,000000;20,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;669;Clorofórmio;Sem classe;0,000000;0,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;671;Tetracloreto de Carbono;Sem classe;0,000000;4,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;672;Benzeno;Sem classe;0,000000;5,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;673;Tricloroeteno (1,1,2-Tricloroeteno);Sem classe;0,000000;4,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;676;Tolueno;Sem classe;0,000000;30,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;678;Tetracloroeteno;Sem classe;0,000000;40,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;680;Monoclorobenzeno;Sem classe;0,000000;0,020000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;682;Etilbenzeno;Sem classe;0,000000;300,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;690;1,4-Diclorobenzeno;Sem classe;0,000000;5,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;691;1,2-Diclorobenzeno;Sem classe;0,000000;0,001000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;776;Escherichia coli (P/A);Sem classe;0,000000;0,000001;Aus/Pres em 100mL
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;777;Cloro Residual Livre;Sem classe;0,200000;5,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;793;pH;Sem classe;6,000000;9,000000;
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;833;Carbofurano;Sem classe;0,000000;7,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;863;2,4-D;Sem classe;0,000000;30,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;877;Glifosato+AMPA;Sem classe;0,000000;500,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;905;Tebuconazol;Sem classe;0,000000;180,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;912;Profenofos;Sem classe;0,000000;0,300000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;924;Acrilamida;Sem classe;0,000000;0,500000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;949;Sólidos Dissolvidos Totais;Sem classe;0,000000;500,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;989;1,2-Dicloroetano;Sem classe;0,000000;5,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;1108;Microcistinas;Sem classe;0,000000;1,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;1109;Saxitoxinas;Sem classe;0,000000;3,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;1181;SUB - Radioatividade Alfa;Sem classe;0,000000;0,500000;Bq/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;1184;SUB - Radioatividade Beta;Sem classe;0,000000;1,000000;Bq/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;1190;pH;Sem classe;6,000000;9,000000;
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;1207;Cloro Residual Livre;Sem classe;0,200000;5,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;2392;Ácidos Haloacéticos Totais;Sem classe;0,000000;0,080000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;2393;Xilenos;Sem classe;0,000000;500,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;2414;Benzeno;Sem classe;0,000000;5,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;2519;Cloraminas;Sem classe;0,000000;4,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;3871;Bromato;Sem classe;0,000000;0,010000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;3873;Cloretos;Sem classe;0,000000;250,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;3874;Clorito;Sem classe;0,000000;0,700000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;3874;Clorito;Sem classe;0,000000;0,700000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;3877;SUB - Nitrato (como N);Sem classe;0,000000;10,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;3878;SUB - Nitrito (como N);Sem classe;0,000000;1,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;3880;Sulfato;Sem classe;0,000000;250,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;3904;Turbidez;Sem classe;0,000000;5,000000;NTU
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;4100;Benzeno;Sem classe;0,000000;5,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;4131;Mancozebe;Sem classe;0,000000;8,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;4134;Epoxiconazol;Sem classe;0,000000;60,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;4275;Tiametoxan;Sem classe;0,000000;36,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;5679;Aldrin + dieldrin;Sem classe;0,000000;0,030000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;5679;Aldrin + dieldrin;Sem classe;0,000000;0,030000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;5680;Clordano (cis + trans);Sem classe;0,000000;0,200000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;5682;DDT, todos os isômeros;Sem classe;0,000000;1,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;5838;Epicloridrina;Sem classe;0,000000;0,400000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;6014;SUB - Bactérias Heterotróficas;Sem classe;0,000000;0,000000;UFC/100mL
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;6015;SUB - Escherichia coli (UFC);Sem classe;0,000000;1,000000;UFC/100mL
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;6178;Trihalometanos;Sem classe;0,000000;0,100000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;6486;Carbendazim;Sem classe;0,000000;120,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;6998;1,4-Diclorobenzeno;Sem classe;0,000000;0,000300;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;6998;1,4-Diclorobenzeno;Sem classe;0,000000;0,000300;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;7001;1,2-Diclorobenzeno;Sem classe;0,000000;0,001000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;7001;1,2-Diclorobenzeno;Sem classe;0,000000;0,001000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;7001;1,2-Diclorobenzeno;Sem classe;0,000000;0,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;7003;Cloreto de Vinila;Sem classe;0,000000;0,500000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;7011;Amônia (NH3-N);Sem classe;0,000000;1,200000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;7138;SUB - Gosto e Odor;Sem classe;0,000000;6,000000;
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;7166;Amônia (NH3-N);Sem classe;0,000000;1,200000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;7171;Aldicarbe + Aldicarbe Sulfona + Aldicarbe Sulfóxido;Sem classe;0,000000;10,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;7172;Clorpirifós + Clorpirifós-Oxon;Sem classe;0,000000;30,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;7173;DDT (p,p- DDT+ p,p-DDD+ p,pDDE);Sem classe;0,000000;1,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;7205;Sulfeto (H2S não dissociado);Sem classe;0,000000;0,050000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;7271;1,4-Dioxano;Sem classe;0,000000;48,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;7272;Ametrina;Sem classe;0,000000;60,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;7273;Atrazina + S-Clorotriazinas (DeetilAtrazina - Dea, Deisopropil-Atrazina - Dia e Diaminoclorotriazina-Dact);Sem classe;0,000000;2,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;7274;Ciproconazol;Sem classe;0,000000;30,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;7275;Difenoconazol;Sem classe;0,000000;30,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;7276;Dimetoato + Ometoato;Sem classe;0,000000;1,200000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;7277;Fipronil;Sem classe;0,000000;1,200000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;7278;Flutriafol;Sem classe;0,000000;30,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;7279;Hidroxi-Atrazina;Sem classe;0,000000;120,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;7280;Mancozeb + ETU;Sem classe;0,000000;8,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;7281;Metamidofós + Acefato;Sem classe;0,000000;7,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;7282;Paraquate;Sem classe;0,000000;13,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;7283;Picloram;Sem classe;0,000000;60,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;7284;Propargito;Sem classe;0,000000;30,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;7285;Protioconazol + ProticonazolDestio;Sem classe;0,000000;3,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;7286;Tiodicarbe;Sem classe;0,000000;90,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;7287;Tiram;Sem classe;0,000000;6,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;7288;Clorato;Sem classe;0,000000;0,700000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;7289;N-nitrosodimetilamina;Sem classe;0,000000;0,000100;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;7290;Cilindrospermopsinas;Sem classe;0,000000;1,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;7291;Metribuzim;Sem classe;0,000000;25,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;7324;Profenofós;Sem classe;0,000000;0,300000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;7865;Razão de Nitrito e Nitrato;Sem classe;0,000000;1,000000;
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;7959;Sulfato;Sem classe;0,000000;250,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;8013;Radioatividade Alfa;Sem classe;0,000000;0,500000;Bq/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;8014;Radioatividade Beta;Sem classe;0,000000;1,000000;Bq/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;8020;Amônia;Sem classe;0,000000;1,500000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;8362;Mercúrio;Sem classe;0,000000;0,001000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;8702;Soma das razões (Nitrato e Nitrito);Sem classe;0,000000;1,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;8779;Dureza total;Sem classe;0,000000;300,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;10496;Antimônio;Sem classe;0,000000;0,006000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;10498;Alumínio;Sem classe;0,000000;1,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;10500;Arsênio;Sem classe;0,000000;0,010000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;10504;Bário;Sem classe;0,000000;0,700000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;10508;Cádmio;Sem classe;0,000000;0,003000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;10512;Chumbo;Sem classe;0,000000;0,010000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;10515;Cromo;Sem classe;0,000000;0,050000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;10516;Cobre;Sem classe;0,000000;2,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;10525;Ferro;Sem classe;0,000000;0,300000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;10528;Manganês;Sem classe;0,000000;0,100000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;10531;Mercúrio;Sem classe;0,000000;0,001000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;10534;Níquel;Sem classe;0,000000;0,070000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;10544;Sódio;Sem classe;0,000000;200,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;10546;Selênio;Sem classe;0,000000;0,040000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;10550;Urânio;Sem classe;0,000000;0,030000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;10554;Zinco;Sem classe;0,000000;5,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;10662;Alumínio;Sem classe;0,000000;0,200000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;10662;Alumínio;Sem classe;0,000000;0,200000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;10663;SUB - Cromo;Sem classe;0,000000;0,050000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;10666;Chumbo;Sem classe;0,000000;0,010000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;10668;Antimônio;Sem classe;0,000000;0,006000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;10670;Arsênio;Sem classe;0,000000;0,010000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;10671;Arsênio;Sem classe;0,000000;0,010000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;10673;Bário;Sem classe;0,000000;0,700000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;10674;Cádmio;Sem classe;0,000000;0,003000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;10678;Cobre;Sem classe;0,000000;2,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;10680;Níquel;Sem classe;0,000000;0,070000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;10682;Selênio;Sem classe;0,000000;0,040000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;10684;Urânio;Sem classe;0,000000;0,030000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;10687;Ferro;Sem classe;0,000000;0,300000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;10687;Ferro;Sem classe;0,000000;0,300000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;10687;Ferro;Sem classe;0,000000;0,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;10691;Manganês;Sem classe;0,000000;0,100000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;10691;Manganês;Sem classe;0,000000;0,100000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;10693;Sódio;Sem classe;0,000000;200,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;10693;Sódio;Sem classe;0,000000;200,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;10695;Zinco;Sem classe;0,000000;5,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;10695;Zinco;Sem classe;0,000000;5,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;10720;Mercúrio;Sem classe;0,000000;0,001000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;10862;Sólidos Dissolvidos Totais;Sem classe;0,000000;500,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;11643;Ácidos Haloacéticos Totais;Sem classe;0,000000;0,080000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;11648;2,4-D;Sem classe;0,000000;30,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;11649;Acrilamida;Sem classe;0,000000;0,500000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;11891;Glifosato + AMPA;Sem classe;0,000000;500,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;11892;Acrilamida;Sem classe;0,000000;0,500000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;11893;Carbendazim;Sem classe;0,000000;120,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;11894;2,4-D;Sem classe;0,000000;30,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;11898;Aldicarbe + Aldicarbe Sulfona + Aldicarbe Sulfóxido;Sem classe;0,000000;10,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;11899;Ametrina;Sem classe;0,000000;60,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;11900;Atrazina + S-Clorotriazinas (DeetilAtrazina - Dea, Deisopropil-Atrazina - Dia e Diaminoclorotriazina-Dact);Sem classe;0,000000;2,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;11901;Ciproconazol;Sem classe;0,000000;30,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;11902;Clorpirifós + Clorpirifós-Oxon;Sem classe;0,000000;30,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;11903;Difenoconazol;Sem classe;0,000000;30,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;11904;Dimetoato + Ometoato;Sem classe;0,000000;1,200000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;11905;Epoxiconazol;Sem classe;0,000000;60,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;11906;Fipronil;Sem classe;0,000000;1,200000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;11907;Flutriafol;Sem classe;0,000000;30,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;11908;Hidroxi-Atrazina;Sem classe;0,000000;120,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;11909;Metamidofós + Acefato;Sem classe;0,000000;7,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;11910;Paraquate;Sem classe;0,000000;13,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;11911;Picloram;Sem classe;0,000000;60,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;11912;Profenofós;Sem classe;0,000000;0,300000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;11913;Propargito;Sem classe;0,000000;30,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;11914;Protioconazol + ProticonazolDestio;Sem classe;0,000000;3,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;11915;Tebuconazol;Sem classe;0,000000;180,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;11916;Tiametoxan;Sem classe;0,000000;36,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;11917;Tiodicarbe;Sem classe;0,000000;90,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;11918;Tiram;Sem classe;0,000000;6,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;11921;Carbofurano;Sem classe;0,000000;7,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;11976;Acefato + Metamidofós;Sem classe;0,000000;7,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;11977;Aldicarbe + Aldicarbe Sulfona + Aldicarbe Sulfóxido;Sem classe;0,000000;10,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;11978;Carbendazim + Benomil;Sem classe;0,000000;120,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;11979;Mancozebe + ETU;Sem classe;0,000000;8,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;11980;Clorpirifós + Clorpirifós-oxon;Sem classe;0,000000;30,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;11982;Tebuconazol;Sem classe;0,000000;180,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;11990;Glifosato+AMPA;Sem classe;0,000000;500,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;15161;Fipronil;Sem classe;0,000000;1,200000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;15198;Ácido Dicloroacético (DCAA);Sem classe;0,000000;0,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;15201;Aldrin + dieldrin;Sem classe;0,000000;0,030000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;15202;Glifosato+AMPA;Sem classe;0,000000;500,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;15203;g-HCH (y-HCH ou gama-Lindano);Sem classe;0,000000;2,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;15204;Malation;Sem classe;0,000000;60,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;15205;Mancozebe + ETU;Sem classe;0,000000;8,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;15206;Molinato;Sem classe;0,000000;6,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;15207;Simazina;Sem classe;0,000000;2,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;15208;Terbufos;Sem classe;0,000000;1,200000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;15209;Tiametoxam;Sem classe;0,000000;36,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;15210;1,4-Diclorobenzeno;Sem classe;0,000000;0,000300;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;15211;Monoclorobenzeno;Sem classe;0,000000;0,020000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;15349;SUB - Amônia;Sem classe;0,000000;1,200000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;15428;Cilindrospermopsinas;Sem classe;0,000000;1,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;17079;SUB - Coliformes Totais (UFC);Sem classe;0,000000;0,000000;UFC/100mL
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;17104;SUB - Escherichia coli (P/A);Sem classe;0,000000;0,000000;Aus/Pres em 100mL
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;17105;SUB - Coliformes Totais (P/A);Sem classe;0,000000;0,000000;Aus/Pres em 100mL
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;17120;SUB - Coliformes Totais - Determinação qualitativa pela técnica de tubos múltiplos modificados;Sem classe;0,000000;0,000000;Aus/Pres em 100mL
+Portaria GM/MS Nº888 5/21;Água - BNU;Agua Tratada;17121;SUB - Escherichia coli - Determinação qualitativa pela técnica de tubos múltiplos modificados;Sem classe;0,000000;0,000000;Aus/Pres em 100mL

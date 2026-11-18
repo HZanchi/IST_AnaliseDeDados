@@ -1,0 +1,5 @@
+node_modules/
+.env
+
+# Dados do Postgres portátil (Docker). Estado local do banco, não versionar.
+pgdata/

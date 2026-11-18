@@ -1,0 +1,269 @@
+﻿Legislacao;Matriz;Origem_Amostra;Ensaio;Descricao;Classe_Legislacao;Valor_Min_Permitido;Valor_Max_Permitido;Un_Medida
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;4;Amônia;Sem classe;0,000000;1,200000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;4;Amônia;Sem classe;0,000000;1,200000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;5;Bromato;Sem classe;0,000000;0,010000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;10;Cloraminas;ESPECIFICAÇÃO;0,000000;4,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;10;Cloraminas;Sem classe;0,000000;4,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;11;Cloretos;Sem classe;0,000000;250,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;12;Clorito;Sem classe;0,000000;0,700000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;16;Cor Aparente;Sem classe;0,000000;15,000000;Pt/Co
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;23;Dureza Total;Sem classe;0,000000;300,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;25;Fluoreto;Sem classe;0,000000;1,500000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;29;Gosto e Odor;Sem classe;0,000000;6,000000;Intensidade
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;31;Nitrato (NO3-N);Sem classe;0,000000;10,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;32;Nitrito (NO2-N);Sem classe;0,000000;1,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;36;Odor;Sem classe;0,000000;6,000000;Intensidade
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;36;Odor;Sem classe;0,000000;6,000000;Intensidade
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;43;Sulfato;Sem classe;0,000000;250,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;43;Sulfato;Sem classe;0,000000;250,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;47;Sulfeto de Hidrogênio (H2S-S-2);Sem classe;0,000000;0,050000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;48;Turbidez;Sem classe;0,000000;5,000000;NTU
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;52;Clorofila a;Sem classe;0,000000;10,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;56;Coliformes Totais (P/A);Sem classe;0,000000;0,000001;Aus/Pres em 100mL
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;57;Coliformes Totais (NMP);Sem classe;0,000000;1,000000;NMP/100 mL
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;58;Coliformes Totais (UFC);Sem classe;0,000000;1,000000;UFC/100mL
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;60;Densidade de Cianobactérias;Sem classe;0,000000;20000,000000;células/mL
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;62;Escherichia coli (UFC);Sem classe;0,000000;1,000000;UFC/100mL
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;63;Escherichia coli (NMP);Sem classe;0,000000;1,000000;NMP/100 mL
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;67;Microcistinas;Sem classe;0,000000;1,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;68;Saxitoxinas;Sem classe;0,000000;3,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;217;Alumínio;Sem classe;0,000000;0,200000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;218;Antimônio;Sem classe;0,000000;0,006000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;219;Arsênio;Sem classe;0,000000;0,010000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;220;Bário;Sem classe;0,000000;0,700000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;224;Cádmio;Sem classe;0,000000;0,003000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;226;Chumbo;Sem classe;0,000000;0,010000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;227;Cobre;Sem classe;0,000000;2,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;229;Cromo;Sem classe;0,000000;0,050000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;231;Ferro;Sem classe;0,000000;0,300000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;233;Manganês;Sem classe;0,000000;0,100000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;235;Mercúrio;Sem classe;0,000000;0,001000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;237;Níquel;Sem classe;0,000000;0,070000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;241;Selênio;Sem classe;0,000000;0,040000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;243;Sódio;Sem classe;0,000000;200,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;244;Urânio;Sem classe;0,000000;0,030000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;249;Zinco;Sem classe;0,000000;5,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;348;Benzo(a)pireno;ESPECIFICAÇÃO;0,000000;0,400000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;348;Benzo(a)pireno;Sem classe;0,000000;0,400000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;356;Di(2-etilhexil)ftalato;Sem classe;0,000000;8,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;382;2,4-diclorofenol;Sem classe;0,000000;0,200000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;386;2,4,6-triclorofenol;Sem classe;0,000000;0,200000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;392;Pentaclorofenol;Sem classe;0,000000;9,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;396;g-HCH (y-HCH ou gama-Lindano);Sem classe;0,000000;2,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;417;Trifluralina;Sem classe;0,000000;20,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;419;Simazina;Sem classe;0,000000;2,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;421;Clorotalonil;Sem classe;0,000000;45,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;422;Metribuzim;Sem classe;0,000000;25,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;423;Alacloro;Sem classe;0,000000;20,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;424;Metolacloro;Sem classe;0,000000;10,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;429;Molinato;Sem classe;0,000000;6,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;430;Diuron;Sem classe;0,000000;20,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;436;Terbufos;Sem classe;0,000000;1,200000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;440;Malation;Sem classe;0,000000;60,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;661;Cloreto de Vinila;Sem classe;0,000000;0,500000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;665;Diclorometano (Cloreto de Metileno);Sem classe;0,000000;20,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;671;Tetracloreto de Carbono;Sem classe;0,000000;4,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;673;Tricloroeteno (1,1,2-Tricloroeteno);Sem classe;0,000000;4,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;676;Tolueno;Sem classe;0,000000;30,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;678;Tetracloroeteno;Sem classe;0,000000;40,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;680;Monoclorobenzeno;Sem classe;0,000000;0,020000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;682;Etilbenzeno;Sem classe;0,000000;300,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;690;1,4-Diclorobenzeno;Sem classe;0,000000;0,000300;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;691;1,2-Diclorobenzeno;Àgua tratada;0,000000;0,001000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;776;Escherichia coli (P/A);Sem classe;0,000000;0,000001;Aus/Pres em 100mL
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;777;Cloro Residual Livre;Sem classe;0,200000;0,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;793;pH;Sem classe;6,000000;9,000000;
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;833;Carbofurano;Sem classe;0,000000;7,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;863;2,4-D;Sem classe;0,000000;30,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;877;Glifosato+AMPA;Sem classe;0,000000;500,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;905;Tebuconazol;Sem classe;0,000000;180,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;912;Profenofos;Sem classe;0,000000;0,300000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;924;Acrilamida;Sem classe;0,000000;0,500000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;949;Sólidos Dissolvidos Totais;Sem classe;0,000000;500,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;989;1,2-Dicloroetano;Sem classe;0,000000;5,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;1108;Microcistinas;Sem classe;0,000000;1,000000;ppb
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;1108;Microcistinas;Sem classe;0,000000;1,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;1109;Saxitoxinas;Sem classe;0,000000;3,000000;ppb
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;1181;SUB - Radioatividade Alfa;Sem classe;0,000000;0,500000;Bq/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;1184;SUB - Radioatividade Beta;Sem classe;0,000000;1,000000;Bq/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;1190;pH;Sem classe;6,000000;9,000000;
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;1207;Cloro Residual Livre;Sem classe;0,200000;0,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;2392;Ácidos Haloacéticos Totais;Sem classe;0,000000;0,080000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;2393;Xilenos;Sem classe;0,000000;500,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;2414;Benzeno;Sem classe;0,000000;5,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;2414;Benzeno;Sem classe;0,000000;5,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;2519;Cloraminas;ESPECIFICAÇÃO;0,000000;4,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;2519;Cloraminas;Sem classe;0,000000;4,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;3871;Bromato;Sem classe;0,000000;0,010000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;3871;Bromato;Sem classe;0,000000;0,010000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;3871;Bromato;Sem classe;0,000000;0,010000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;3873;Cloretos;Sem classe;0,000000;250,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;3873;Cloretos;Sem classe;0,000000;250,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;3873;Cloretos;Sem classe;0,000000;250,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;3874;Clorito;Sem classe;0,000000;0,700000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;3874;Clorito;Sem classe;0,000000;0,700000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;3875;SUB - Fluoreto;Sem classe;0,000000;1,500000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;3875;SUB - Fluoreto;Sem classe;0,000000;1,500000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;3877;SUB - Nitrato (como N);Sem classe;0,000000;10,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;3877;SUB - Nitrato (como N);Sem classe;0,000000;10,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;3877;SUB - Nitrato (como N);Sem classe;0,000000;10,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;3878;SUB - Nitrito (como N);Sem classe;0,000000;1,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;3878;SUB - Nitrito (como N);Sem classe;0,000000;1,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;3878;SUB - Nitrito (como N);Sem classe;0,000000;1,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;3880;Sulfato;Sem classe;0,000000;250,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;3880;Sulfato;Sem classe;0,000000;250,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;3880;Sulfato;Sem classe;0,000000;250,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;3880;Sulfato;Sem classe;0,000000;250,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;3882;Bromato;Sem classe;0,000000;0,010000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;3882;Bromato;Sem classe;0,000000;0,010000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;3904;Turbidez;Sem classe;0,000000;5,000000;NTU
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;4100;Benzeno;Sem classe;0,000000;5,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;4134;Epoxiconazol;Sem classe;0,000000;60,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;4275;Tiametoxan;Sem classe;0,000000;36,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;5679;Aldrin + dieldrin;Sem classe;0,000000;0,030000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;5680;Clordano (cis + trans);Sem classe;0,000000;0,200000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;5682;DDT, todos os isômeros;Sem classe;0,000000;1,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;5838;Epicloridrina;Sem classe;0,000000;0,400000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;6178;Trihalometanos;Sem classe;0,000000;0,100000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;6486;Carbendazim;Sem classe;0,000000;120,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;6628;Amônia (NH3-N);Sem classe;0,000000;1,200000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;6628;Amônia (NH3-N);Sem classe;0,000000;1,200000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;6998;1,4-Diclorobenzeno;Sem classe;0,000000;0,000300;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;6998;1,4-Diclorobenzeno;Sem classe;0,000000;0,000300;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;7001;1,2-Diclorobenzeno;Sem classe;0,000000;0,001000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;7003;Cloreto de Vinila;Sem classe;0,000000;0,500000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;7003;Cloreto de Vinila;Sem classe;0,000000;0,500000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;7011;Amônia (NH3-N);Sem classe;0,000000;1,200000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;7011;Amônia (NH3-N);Sem classe;0,000000;1,200000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;7011;Amônia (NH3-N);Sem classe;0,000000;1,200000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;7138;SUB - Gosto e Odor;Sem classe;0,000000;6,000000;
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;7166;Amônia (NH3-N);Sem classe;0,000000;1,200000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;7166;Amônia (NH3-N);Sem classe;0,000000;1,200000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;7171;Aldicarbe + Aldicarbe Sulfona + Aldicarbe Sulfóxido;Sem classe;0,000000;10,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;7172;Clorpirifós + Clorpirifós-Oxon;Sem classe;0,000000;30,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;7173;DDT (p,p- DDT+ p,p-DDD+ p,pDDE);Sem classe;0,000000;1,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;7205;Sulfeto (H2S não dissociado);Sem classe;0,000000;0,050000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;7271;1,4-Dioxano;Sem classe;0,000000;48,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;7272;Ametrina;Sem classe;0,000000;60,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;7273;Atrazina + S-Clorotriazinas (DeetilAtrazina - Dea, Deisopropil-Atrazina - Dia e Diaminoclorotriazina-Dact);Sem classe;0,000000;2,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;7274;Ciproconazol;Sem classe;0,000000;30,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;7275;Difenoconazol;Sem classe;0,000000;30,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;7276;Dimetoato + Ometoato;Sem classe;0,000000;1,200000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;7277;Fipronil;Sem classe;0,000000;1,200000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;7278;Flutriafol;Sem classe;0,000000;30,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;7279;Hidroxi-Atrazina;Sem classe;0,000000;120,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;7280;Mancozeb + ETU;Sem classe;0,000000;8,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;7281;Metamidofós + Acefato;Sem classe;0,000000;7,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;7282;Paraquate;Sem classe;0,000000;13,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;7282;Paraquate;Sem classe;0,000000;0,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;7283;Picloram;Sem classe;0,000000;60,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;7283;Picloram;Sem classe;0,000000;0,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;7284;Propargito;Sem classe;0,000000;30,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;7284;Propargito;Sem classe;0,000000;30,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;7285;Protioconazol + ProticonazolDestio;Sem classe;0,000000;3,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;7285;Protioconazol + ProticonazolDestio;Sem classe;0,000000;3,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;7286;Tiodicarbe;Sem classe;0,000000;90,000000;ug/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;7286;Tiodicarbe;Sem classe;0,000000;90,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;7287;Tiram;Sem classe;0,000000;6,000000;ug/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;7287;Tiram;Sem classe;0,000000;6,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;7288;Clorato;Sem classe;0,000000;0,700000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;7288;Clorato;Sem classe;0,000000;0,700000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;7289;N-nitrosodimetilamina;Sem classe;0,000000;0,000100;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;7290;Cilindrospermopsinas;Sem classe;0,000000;1,000000;ug/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;7290;Cilindrospermopsinas;Sem classe;0,000000;1,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;7291;Metribuzim;Sem classe;0,000000;25,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;7291;Metribuzim;Sem classe;0,000000;25,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;7324;Profenofós;Sem classe;0,000000;0,300000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;7865;Razão de Nitrito e Nitrato;Sem classe;0,000000;1,000000;
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;7898;Fluoreto;Sem classe;0,000000;1,500000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;7898;Fluoreto;Sem classe;0,000000;1,500000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;7955;Cloretos;Sem classe;0,000000;250,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;7956;Fluoreto;Sem classe;0,000000;1,500000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;7959;Sulfato;Sem classe;0,000000;250,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;8013;Radioatividade Alfa;Sem classe;0,000000;0,500000;Bq/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;8014;Radioatividade Beta;Sem classe;0,000000;1,000000;Bq/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;8020;Amônia;Sem classe;0,000000;1,200000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;8020;Amônia;Sem classe;0,000000;1,200000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;8362;Mercúrio;Sem classe;0,000000;0,001000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;8702;Soma das razões (Nitrato e Nitrito);Sem classe;0,000000;1,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;8779;Dureza total;Sem classe;0,000000;300,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;10496;Antimônio;Sem classe;0,000000;0,006000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;10498;Alumínio;Sem classe;0,000000;0,200000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;10500;Arsênio;Sem classe;0,000000;0,010000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;10504;Bário;Sem classe;0,000000;0,700000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;10508;Cádmio;Sem classe;0,000000;0,003000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;10512;Chumbo;Sem classe;0,000000;0,010000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;10515;Cromo;Sem classe;0,000000;0,050000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;10516;Cobre;Sem classe;0,000000;2,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;10525;Ferro;Sem classe;0,000000;0,300000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;10528;Manganês;Sem classe;0,000000;0,100000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;10528;Manganês;Sem classe;0,000000;0,100000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;10531;Mercúrio;Sem classe;0,000000;0,001000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;10534;Níquel;Sem classe;0,000000;0,070000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;10544;Sódio;Sem classe;0,000000;200,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;10546;Selênio;Sem classe;0,000000;0,040000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;10550;Urânio;Sem classe;0,000000;0,030000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;10554;Zinco;Sem classe;0,000000;5,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;10662;Alumínio;Sem classe;0,000000;0,200000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;10663;SUB - Cromo;Sem classe;0,000000;0,050000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;10666;Chumbo;Sem classe;0,000000;0,010000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;10666;Chumbo;Sem classe;0,000000;0,010000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;10668;Antimônio;Sem classe;0,000000;0,006000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;10671;Arsênio;Sem classe;0,000000;0,010000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;10673;Bário;Sem classe;0,000000;0,700000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;10674;Cádmio;Sem classe;0,000000;0,003000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;10674;Cádmio;Sem classe;0,000000;0,003000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;10678;Cobre;Sem classe;0,000000;2,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;10680;Níquel;Sem classe;0,000000;0,070000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;10684;Urânio;Sem classe;0,000000;0,030000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;10687;Ferro;Sem classe;0,000000;0,300000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;10687;Ferro;Sem classe;0,000000;0,300000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;10691;Manganês;Sem classe;0,000000;0,100000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;10691;Manganês;Sem classe;0,000000;0,100000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;10693;Sódio;Sem classe;0,000000;200,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;10695;Zinco;Sem classe;0,000000;5,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;10720;Mercúrio;Sem classe;0,000000;0,001000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;10862;Sólidos Dissolvidos Totais;Sem classe;0,000000;500,000000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;11643;Ácidos Haloacéticos Totais;Sem classe;0,000000;0,080000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;11648;2,4-D;Sem classe;0,000000;30,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;11649;Acrilamida;Sem classe;0,000000;0,500000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;11649;Acrilamida;Sem classe;0,000000;0,500000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;11892;Acrilamida;Sem classe;0,000000;0,500000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;11893;Carbendazim;Sem classe;0,000000;120,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;11894;2,4-D;Sem classe;0,000000;30,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;11898;Aldicarbe + Aldicarbe Sulfona + Aldicarbe Sulfóxido;Sem classe;0,000000;10,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;11899;Ametrina;Sem classe;0,000000;60,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;11900;Atrazina + S-Clorotriazinas (DeetilAtrazina - Dea, Deisopropil-Atrazina - Dia e Diaminoclorotriazina-Dact);Sem classe;0,000000;2,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;11901;Ciproconazol;Sem classe;0,000000;30,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;11903;Difenoconazol;Sem classe;0,000000;30,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;11904;Dimetoato + Ometoato;Sem classe;0,000000;1,200000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;11905;Epoxiconazol;Sem classe;0,000000;60,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;11906;Fipronil;Sem classe;0,000000;1,200000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;11907;Flutriafol;Sem classe;0,000000;30,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;11908;Hidroxi-Atrazina;Sem classe;0,000000;120,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;11909;Metamidofós + Acefato;Sem classe;0,000000;7,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;11910;Paraquate;Sem classe;0,000000;13,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;11911;Picloram;Sem classe;0,000000;60,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;11912;Profenofós;Sem classe;0,000000;0,300000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;11913;Propargito;Sem classe;0,000000;30,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;11914;Protioconazol + ProticonazolDestio;Sem classe;0,000000;3,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;11915;Tebuconazol;Sem classe;0,000000;180,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;11916;Tiametoxan;Sem classe;0,000000;36,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;11917;Tiodicarbe;Sem classe;0,000000;90,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;11937;Carbofurano;ESPECIFICAÇÃO;0,000000;7,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;11937;Carbofurano;Sem classe;0,000000;7,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;11976;Acefato + Metamidofós;Sem classe;0,000000;7,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;11977;Aldicarbe + Aldicarbe Sulfona + Aldicarbe Sulfóxido;Sem classe;0,000000;10,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;11978;Carbendazim + Benomil;Sem classe;0,000000;120,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;11979;Mancozebe + ETU;Sem classe;0,000000;8,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;11980;Clorpirifós + Clorpirifós-oxon;Sem classe;0,000000;30,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;11982;Tebuconazol;Sem classe;0,000000;180,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;11990;Glifosato+AMPA;Sem classe;0,000000;500,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;15349;SUB - Amônia;Sem classe;0,000000;1,200000;mg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;15428;Cilindrospermopsinas;Sem classe;0,000000;1,000000;µg/L
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;16700;SUB - Coliformes Totais (NMP);Sem classe;0,000000;0,000000;NMP/100 mL
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;16702;SUB - Escherichia coli - Determinação quantitativa pela técnica de tubos múltiplos (NMP);Sem classe;0,000000;0,000000;NMP/100 mL
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;17104;SUB - Escherichia coli (P/A);Sem classe;0,000000;0,000000;Aus/Pres em 100mL
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;17105;SUB - Coliformes Totais (P/A);Sem classe;0,000000;0,000000;Aus/Pres em 100mL
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;17120;SUB - Coliformes Totais - Determinação qualitativa pela técnica de tubos múltiplos modificados;Sem classe;0,000000;0,000000;Aus/Pres em 100mL
+Portaria GM/MS Nº888 5/21;Água - BNU;Água Consumo Humano;17121;SUB - Escherichia coli - Determinação qualitativa pela técnica de tubos múltiplos modificados;Sem classe;0,000000;0,000000;Aus/Pres em 100mL

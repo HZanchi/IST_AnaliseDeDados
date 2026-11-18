@@ -1,0 +1,186 @@
+-- =====================================================================
+-- SEALIMENTAR - modelo logico/fisico gerado a partir do modelo
+-- conceitual brModelo (SEALIMENTAR.xml). Dialeto: PostgreSQL.
+-- =====================================================================
+
+-- ---------------------------------------------------------------------
+-- Localizacao: ESTADO -> CIDADE -> BAIRRO -> ENDERECO
+-- ---------------------------------------------------------------------
+CREATE TABLE estado (
+    id_estado     SERIAL PRIMARY KEY,
+    nome_estado   VARCHAR(50) NOT NULL,
+    sigla_estado  CHAR(2)     NOT NULL
+);
+
+CREATE TABLE cidade (
+    id_cidade    SERIAL PRIMARY KEY,
+    nome_cidade  VARCHAR(50) NOT NULL,
+    id_estado    INTEGER     NOT NULL REFERENCES estado (id_estado)
+);
+
+CREATE TABLE bairro (
+    id_bairro    SERIAL PRIMARY KEY,
+    nome_bairro  VARCHAR(50) NOT NULL,
+    id_cidade    INTEGER     NOT NULL REFERENCES cidade (id_cidade)
+);
+
+CREATE TABLE endereco (
+    id_endereco      SERIAL PRIMARY KEY,
+    nome_logradouro  VARCHAR(20) NOT NULL,
+    numero           INTEGER     NOT NULL,
+    complemento      VARCHAR(50),               -- opcional
+    cep              VARCHAR(9)  NOT NULL,
+    pais             VARCHAR(50) NOT NULL,
+    id_bairro        INTEGER     NOT NULL REFERENCES bairro (id_bairro)
+);
+
+-- ---------------------------------------------------------------------
+-- Cliente
+-- ---------------------------------------------------------------------
+CREATE TABLE cliente (
+    id_cliente    SERIAL PRIMARY KEY,
+    nome_cliente  VARCHAR(120) NOT NULL,
+    cnpj          CHAR(15)     NOT NULL,
+    id_endereco   INTEGER      NOT NULL UNIQUE REFERENCES endereco (id_endereco)  -- relacao 1:1
+);
+
+CREATE TABLE telefone_cliente (
+    id_tel_cliente  SERIAL PRIMARY KEY,
+    codigo_area     CHAR(2)     NOT NULL,
+    numero          CHAR(9)     NOT NULL,
+    tipo            VARCHAR(15) NOT NULL,
+    id_cliente      INTEGER     NOT NULL REFERENCES cliente (id_cliente)
+);
+
+-- ---------------------------------------------------------------------
+-- Matriz (tipo de material analisado) e Unidade de medida
+-- ---------------------------------------------------------------------
+CREATE TABLE matriz (
+    id_matriz    SERIAL PRIMARY KEY,
+    nome_matriz  VARCHAR(50) NOT NULL,
+    id_endereco  INTEGER     NOT NULL UNIQUE REFERENCES endereco (id_endereco)    -- relacao 1:1 (conforme diagrama)
+);
+
+CREATE TABLE unidade_medida (
+    id_unidade  SERIAL PRIMARY KEY,
+    unidade     VARCHAR(10) NOT NULL
+);
+
+-- ---------------------------------------------------------------------
+-- Proposta comercial e Amostra
+-- ---------------------------------------------------------------------
+CREATE TABLE proposta_comercial (
+    id_proposta             SERIAL PRIMARY KEY,
+    num_amostras            INTEGER      NOT NULL,
+    num_ensaios             INTEGER      NOT NULL,
+    prazo                   DATE         NOT NULL,
+    frequencia_atendimentos VARCHAR(40)  NOT NULL,
+    data_inicio             DATE         NOT NULL,
+    id_cliente              INTEGER      NOT NULL REFERENCES cliente (id_cliente),
+    id_matriz               INTEGER      NOT NULL REFERENCES matriz (id_matriz)   -- relacao "Analisa"
+);
+
+CREATE TABLE amostra (
+    id_amostra      SERIAL PRIMARY KEY,
+    quantidade      NUMERIC(5,2)  NOT NULL,
+    data_coleta     TIMESTAMP     NOT NULL,
+    coletor         VARCHAR(100)  NOT NULL,
+    origem_amostra  VARCHAR(20)   NOT NULL,
+    validade        TIMESTAMP     NOT NULL,
+    id_matriz       INTEGER       NOT NULL REFERENCES matriz (id_matriz),
+    id_proposta     INTEGER       NOT NULL REFERENCES proposta_comercial (id_proposta)
+);
+
+-- ---------------------------------------------------------------------
+-- Legislacao -> Classe -> Parametro -> Elemento
+-- ---------------------------------------------------------------------
+CREATE TABLE legislacao (
+    id_legislacao    SERIAL PRIMARY KEY,
+    nome_legislacao  VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE classe (
+    id_classe    SERIAL PRIMARY KEY,
+    nome_classe  VARCHAR(20) NOT NULL
+);
+
+CREATE TABLE parametro (
+    id_parametro       SERIAL PRIMARY KEY,
+    quantidade_maxima  NUMERIC(8,5) NOT NULL,
+    quantidade_minima  NUMERIC(8,5) NOT NULL
+);
+
+CREATE TABLE elemento (
+    id_elemento_parametro  SERIAL PRIMARY KEY,
+    elemento               VARCHAR(80) NOT NULL,
+    simbolo_quimico        VARCHAR(2)  NOT NULL,
+    id_parametro           INTEGER     NOT NULL REFERENCES parametro (id_parametro),
+    id_unidade             INTEGER     NOT NULL REFERENCES unidade_medida (id_unidade)
+);
+
+-- N:N  PROPOSTA_COMERCIAL x LEGISLACAO
+CREATE TABLE proposta_legislacao (
+    id_proposta    INTEGER NOT NULL REFERENCES proposta_comercial (id_proposta),
+    id_legislacao  INTEGER NOT NULL REFERENCES legislacao (id_legislacao),
+    PRIMARY KEY (id_proposta, id_legislacao)
+);
+
+-- N:N  LEGISLACAO x CLASSE
+CREATE TABLE legislacao_classe (
+    id_legislacao  INTEGER NOT NULL REFERENCES legislacao (id_legislacao),
+    id_classe      INTEGER NOT NULL REFERENCES classe (id_classe),
+    PRIMARY KEY (id_legislacao, id_classe)
+);
+
+-- N:N  CLASSE x PARAMETRO
+CREATE TABLE classe_parametro (
+    id_classe     INTEGER NOT NULL REFERENCES classe (id_classe),
+    id_parametro  INTEGER NOT NULL REFERENCES parametro (id_parametro),
+    PRIMARY KEY (id_classe, id_parametro)
+);
+
+-- N:N  AMOSTRA x ELEMENTO
+CREATE TABLE amostra_elemento (
+    id_amostra   INTEGER NOT NULL REFERENCES amostra (id_amostra),
+    id_elemento  INTEGER NOT NULL REFERENCES elemento (id_elemento_parametro),
+    PRIMARY KEY (id_amostra, id_elemento)
+);
+
+-- ---------------------------------------------------------------------
+-- Ensaio (entidade associativa: relacao "Compara" entre PARAMETRO e AMOSTRA)
+-- ---------------------------------------------------------------------
+CREATE TABLE ensaio (
+    id_ensaio     SERIAL PRIMARY KEY,          -- no diagrama: id_ensiao
+    descricao     VARCHAR(100) NOT NULL,
+    lote          VARCHAR(6)   NOT NULL,
+    resultado     VARCHAR(15)  NOT NULL,
+    id_parametro  INTEGER      NOT NULL REFERENCES parametro (id_parametro),
+    id_amostra    INTEGER      NOT NULL REFERENCES amostra (id_amostra)
+);
+
+-- ---------------------------------------------------------------------
+-- Laboratorio e Tecnico
+-- ---------------------------------------------------------------------
+CREATE TABLE laboratorio (
+    id_laboratorio  SERIAL PRIMARY KEY,
+    nome            VARCHAR(200) NOT NULL,
+    cnpj            VARCHAR(15)  NOT NULL,
+    id_endereco     INTEGER      NOT NULL UNIQUE REFERENCES endereco (id_endereco)
+);
+
+CREATE TABLE tecnico (
+    id_tecnico      SERIAL PRIMARY KEY,
+    nome            VARCHAR(100) NOT NULL,
+    telefone        CHAR(9)      NOT NULL,
+    email           VARCHAR(100) NOT NULL,
+    id_laboratorio  INTEGER      NOT NULL REFERENCES laboratorio (id_laboratorio)  -- relacao "Trabalha"
+);
+
+-- Parecer tecnico (entidade associativa: relacao "Analisa" entre TECNICO e ENSAIO)
+CREATE TABLE parecer_tecnico (
+    id_parecer  SERIAL PRIMARY KEY,
+    parecer     TEXT    NOT NULL,
+    id_tecnico  INTEGER NOT NULL REFERENCES tecnico (id_tecnico),
+    id_ensaio   INTEGER NOT NULL REFERENCES ensaio (id_ensaio)
+);
+

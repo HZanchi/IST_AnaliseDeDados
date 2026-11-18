@@ -1,64 +1,107 @@
-# Projeto IST — dashboard de conformidade
+# Projeto Aplicado — banco portátil + cadastro de laboratórios
 
-Dashboard HTML que mostra resultados de ensaio de qualidade de água contra os
-limites das legislações carregadas (CONAMA, WHO, EU, EPA), com veredito de
-conformidade amostra por amostra. Interface em **português**.
+Este guia explica duas coisas adicionadas ao projeto:
 
-Documentação completa: [`../docs/dashboard.md`](../docs/dashboard.md) (dashboard)
-e [`../docs/admin.md`](../docs/admin.md) (editor `/admin`).
+1. Como rodar o banco PostgreSQL de forma portátil (mesmo banco em qualquer
+   máquina com Docker, dados guardados na raiz do projeto).
+2. Como cadastrar laboratórios no editor do dashboard.
 
-## Rodar
+## 1. Banco portátil (Postgres via Docker)
 
-### 1. Banco portátil (Postgres via Docker)
+O arquivo `docker-compose.yml` na raiz sobe um PostgreSQL 18 já configurado. Os
+dados do banco ficam em `./pgdata` (dentro do projeto), então o estado "mora" na
+raiz e acompanha o projeto quando ele é copiado/clonado.
 
-O `docker-compose.yml` sobe um PostgreSQL 18 já configurado, com os dados em
-`./pgdata` (dentro de `web/`), portátil entre máquinas. Pré-requisito: Docker.
+Pré-requisito: Docker instalado (`docker --version`).
 
-```bash
-docker compose up -d        # sobe o banco; no 1º boot aplica db/init (schema + dados)
-```
+### Subir o banco
 
-No primeiro boot o container cria o banco `waterquality` e aplica, em ordem,
-`db/init/01_schema.sql` (esquema completo, inclui a tabela `laboratories`) e
-`db/init/02_data.sql` (dados atuais). Nos boots seguintes usa o estado salvo em
-`./pgdata`. Resetar do zero: `docker compose down && rm -rf pgdata && docker compose up -d`.
-
-### 2. Dashboard
+Na raiz do projeto:
 
 ```bash
-npm install
-npm start          # http://127.0.0.1:3000
-npm run check      # sonda /health (JSON) — sai com 1 se o banco estiver fora
+docker compose up -d
 ```
 
-Banco: `DATABASE_URL` em `.env` (padrão
-`postgres://waterquality:waterquality@127.0.0.1:5433/waterquality`, batendo com o
-`docker-compose.yml`). A porta 5433 no host evita conflito com um Postgres local.
+No **primeiro** boot (quando `./pgdata` está vazio), o container cria o banco
+`waterquality` e aplica, em ordem, os scripts de `web/db/init`:
 
-## Rotas principais
+- `01_schema.sql` — todo o esquema (tabelas, extensões, funções, triggers),
+  incluindo a tabela nova `laboratories`.
+- `02_data.sql` — os dados atuais (pontos, amostras, resultados, parâmetros,
+  legislações e limites).
 
-- `/` visão geral e consolidado de conformidade
-- `/amostras` e `/amostras/:code` — lista e detalhe com pass/fail por resultado
-- `/amostras/:code/relatorio` — relatório de ensaio por amostra (resumo,
-  resultados, comparativo entre leis, legenda, citações); `?lei=<código>` troca
-  a lei vinculante e `?lei=nenhuma` emite sem conclusão geral
-- `/resultados?param=code` — série temporal com as linhas de limite (SVG)
-- `/comparativo?param=code` — parâmetro × legislações (publicado vs normalizado)
-- `/limites?lei=code` — tabela de limites por legislação
-- `/health` — JSON de saúde
-- `/admin` e `/admin/:entidade` — editor CRUD (criar, editar, excluir com
-  confirmação); entidades: pontos, amostras, parâmetros, resultados,
-  **laboratórios**, legislações e limites. `READ_ONLY=1 npm start` desliga a
-  escrita (403)
+Nos boots seguintes, como já existe dado em `./pgdata`, os scripts de init são
+ignorados e o banco sobe com o estado salvo — é assim que a persistência
+funciona.
 
-## Dados de demonstração
+Conferir que subiu:
 
 ```bash
-npm run demo:seed     # só insere se não houver amostras; marca tudo como demo
-npm run demo:purge    # remove somente os dados de demonstração
+docker compose ps
+curl -s http://127.0.0.1:3000/health   # depois de iniciar o app (abaixo)
 ```
 
-## Stack
+### Conexão
 
-Node ≥ 20 · `node:http` · `pg` · HTML renderizado no servidor · SVG puro para
-gráficos. Sem bundler e sem etapa de build.
+O dashboard lê `DATABASE_URL` de `web/.env`, já apontando para o container:
+
+```
+DATABASE_URL=postgres://waterquality:waterquality@127.0.0.1:5432/waterquality
+```
+
+As credenciais (`waterquality`/`waterquality`) batem com as do
+`docker-compose.yml`. Em outra máquina, basta ter Docker, rodar
+`docker compose up -d` e iniciar o app — nenhuma reconfiguração.
+
+### Iniciar o dashboard
+
+```bash
+cd web
+npm install        # primeira vez (instala o driver pg)
+npm start          # sobe em http://127.0.0.1:3000
+```
+
+### Parar / resetar
+
+```bash
+docker compose down        # para o banco, mantém os dados em ./pgdata
+docker compose down -v     # para e apaga o volume Docker (não o ./pgdata do host)
+```
+
+Para começar o banco do zero (reaplica schema + dados do init): pare o
+container e apague a pasta de dados:
+
+```bash
+docker compose down
+rm -rf pgdata        # CUIDADO: apaga o estado local do banco
+docker compose up -d # recria a partir de web/db/init
+```
+
+> `pgdata/` está no `.gitignore` da raiz: é estado local, não vai para o git.
+
+### Observação sobre a imagem postgres:18
+
+Na imagem `postgres:18` o volume é montado em `/var/lib/postgresql` (e os dados
+ficam numa subpasta por versão, ex. `pgdata/18/docker`), **não** mais em
+`/var/lib/postgresql/data`. O `docker-compose.yml` já usa o caminho correto.
+
+## 2. Cadastrar laboratórios
+
+Foi criada a entidade **Laboratórios** no editor CRUD (`/admin`), no mesmo padrão
+das demais (pontos, amostras, parâmetros, resultados, legislações, limites).
+
+Fluxo:
+
+1. Suba o banco (`docker compose up -d`) e o app (`cd web && npm start`).
+2. Acesse `http://127.0.0.1:3000/admin`.
+3. Clique no card **Laboratórios**.
+4. Clique em **+ Novo laboratório**.
+5. Preencha ao menos **Código** (único, ex. `LAB-01`) e **Nome** e salve.
+
+Campos disponíveis: código, nome, CNPJ, acreditação (ex. ISO/IEC 17025),
+contato (nome/e-mail/telefone), endereço, cidade, estado (UF), observações e
+ativo. O e-mail de contato, quando preenchido, é validado no servidor e no
+banco. Código duplicado é recusado com mensagem clara.
+
+A tabela vive no banco como `laboratories`. O DDL versionado está em
+`web/db/0007_laboratories.sql` (também já incluído no `01_schema.sql` do init).
