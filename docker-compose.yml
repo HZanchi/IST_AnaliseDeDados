@@ -1,0 +1,44 @@
+# Postgres portátil para o dashboard de qualidade de água.
+#
+# Objetivo: rodar o mesmo banco em qualquer máquina que tenha Docker, sem
+# instalar/configurar PostgreSQL manualmente. Rode este compose a partir da
+# pasta web/. Os dados do banco ficam em ./pgdata (web/pgdata), então o estado
+# "mora" junto do projeto e é portátil.
+#
+# Primeiro boot (dentro de web/):
+#   docker compose up -d
+# O container cria o banco "waterquality" e aplica, em ordem, os arquivos de
+# db/init (schema + dados atuais) — ver volume read-only abaixo.
+#
+# O dashboard conecta via DATABASE_URL (ver .env):
+#   postgres://waterquality:waterquality@127.0.0.1:5433/waterquality
+
+services:
+  db:
+    image: postgres:18
+    container_name: waterquality-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: waterquality
+      POSTGRES_USER: waterquality
+      POSTGRES_PASSWORD: waterquality
+      # Sem isto, o Postgres usa o locale do host; fixamos para reprodutibilidade.
+      LANG: C.UTF-8
+    ports:
+      # host:container — a 5433 do host evita conflito com um PostgreSQL já
+      # instalado na máquina (que costuma ocupar a 5432). Dentro do container
+      # o Postgres continua na 5432. Se a sua máquina não tem Postgres local,
+      # pode trocar para "5432:5432".
+      - "5433:5432"
+    volumes:
+      # Dados do banco dentro do projeto (portátil, ignorado pelo git).
+      # Em postgres:18+ o mount vai em /var/lib/postgresql e os dados ficam
+      # numa subpasta por versão (ex.: ./pgdata/18/docker).
+      - ./pgdata:/var/lib/postgresql
+      # Scripts aplicados UMA vez, só quando ./pgdata está vazio (primeiro boot).
+      - ./db/init:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U waterquality -d waterquality"]
+      interval: 5s
+      timeout: 5s
+      retries: 10

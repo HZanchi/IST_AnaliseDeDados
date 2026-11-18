@@ -9,15 +9,31 @@ e [`../docs/admin.md`](../docs/admin.md) (editor `/admin`).
 
 ## Rodar
 
+### 1. Banco portátil (Postgres via Docker)
+
+O `docker-compose.yml` sobe um PostgreSQL 18 já configurado, com os dados em
+`./pgdata` (dentro de `web/`), portátil entre máquinas. Pré-requisito: Docker.
+
+```bash
+docker compose up -d        # sobe o banco; no 1º boot aplica db/init (schema + dados)
+```
+
+No primeiro boot o container cria o banco `waterquality` e aplica, em ordem,
+`db/init/01_schema.sql` (esquema completo, inclui a tabela `laboratories`) e
+`db/init/02_data.sql` (dados atuais). Nos boots seguintes usa o estado salvo em
+`./pgdata`. Resetar do zero: `docker compose down && rm -rf pgdata && docker compose up -d`.
+
+### 2. Dashboard
+
 ```bash
 npm install
 npm start          # http://127.0.0.1:3000
 npm run check      # sonda /health (JSON) — sai com 1 se o banco estiver fora
 ```
 
-Banco: `DATABASE_URL` em `.env` (padrão `postgres://localhost:5432/waterquality`).
-Migrações/seeds não são daqui — rodam no projeto de dados
-(`npm run db:setup`).
+Banco: `DATABASE_URL` em `.env` (padrão
+`postgres://waterquality:waterquality@127.0.0.1:5433/waterquality`, batendo com o
+`docker-compose.yml`). A porta 5433 no host evita conflito com um Postgres local.
 
 ## Rotas principais
 
@@ -31,7 +47,9 @@ Migrações/seeds não são daqui — rodam no projeto de dados
 - `/limites?lei=code` — tabela de limites por legislação
 - `/health` — JSON de saúde
 - `/admin` e `/admin/:entidade` — editor CRUD (criar, editar, excluir com
-  confirmação); `READ_ONLY=1 npm start` desliga a escrita (403)
+  confirmação); entidades: pontos, amostras, parâmetros, resultados,
+  **laboratórios**, legislações e limites. `READ_ONLY=1 npm start` desliga a
+  escrita (403)
 
 ## Dados de demonstração
 
